@@ -1,0 +1,8 @@
+.imagens{
+    display: flex;
+    flex-direction: row;
+}
+.informacao img{
+    height:90px;
+    width: 100px;
+}

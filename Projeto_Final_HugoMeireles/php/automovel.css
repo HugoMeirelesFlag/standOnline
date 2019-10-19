@@ -1,0 +1,45 @@
+.anuncio {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 500px;
+}
+  
+.informacao {
+    width: 50%;
+}
+  
+.fotos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.principal{
+    height:80%;
+    width: 100%;
+    top:0;
+}
+
+.secundario{
+    height:20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom:0;
+}
+.principal img{
+    height:100%;
+    width: 100%;
+}
+.secundario img{
+    height:100%;
+    width: 20%;
+    box-sizing: border-box;
+} 
+
+h1{
+    display:none;
+}

@@ -1,0 +1,18 @@
+.tabela{
+    border: 1px solid black;
+}
+.tabela td{
+    border: 1px solid black;
+}
+.tabela th{
+    border: 1px solid black;
+} 
+
+a{
+    display:inline-block;
+}
+
+#icon{
+    widows:25px;
+    height:25px;
+}

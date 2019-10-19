@@ -1,0 +1,21 @@
+header::after{
+    content: '';
+    white-space: pre;
+    display: block;
+    border-bottom: 2px solid lightgrey;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+li {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 0.5px;
+    padding: 6px;
+}
